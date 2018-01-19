@@ -13,8 +13,16 @@ function updateInnerHTML(selector, newValue) {
     document.querySelector(selector).innerHTML = newValue;
   }
 
+  
+
 function strong(value) {
     //combining strings to produce a new string is called concatenation
     return '<strong>' + value + '</strong>';
   }
   
+  function italics(value) {
+    return '<i>' + value + '</i>'
+  }
+  function updateInnerHTML(italcs, value) {
+    document.querySelector(italics).innerHTML = value;
+  }
